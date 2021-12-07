@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Multi Platform Test</title>
+        <link rel="stylesheet" href="style.css" type="text/css" media="all">
+        <script src="script.js">
+        </script>
+
+    </head>
+    <body>
+        <h1>Simple Camera Test</h1>
+
+        <!--Video Elements to render streams-->
+        <div class="MainScreen"> 
+            <div class="camera">
+                <video id="video">Video stream not available.</video>
+                <button id="startbutton">Take photo</button>
+            </div>
+
+            <canvas id="canvas">
+            </canvas>
+            <div class="output">
+            <img id="photo" alt="The screen capture will appear in this box.">
+            </div>
+        </div>
+
+    </body>
+</html>
